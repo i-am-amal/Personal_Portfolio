@@ -46,7 +46,7 @@ function validatePhone() {
 }
 
 function validateForm() {
-    if (!validateName() || !validatePhone() || !validateEmail()) {
+    if (!validateName() || !validateEmail() || !validatePhone()) {
         submitError.style.display = 'block';
         setTimeout(function () { submitError.style.display = 'none'; }, 3000);
         return false;
